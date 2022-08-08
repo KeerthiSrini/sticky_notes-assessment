@@ -11,7 +11,6 @@ config = require('config');
 let mongoose = require('mongoose');
 let relationship = require("mongoose-relationship");
 let swaggerJSDoc = require('swagger-jsdoc');
-let HttpStatus = require('http-status-codes');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ limit: '5mb' }));
