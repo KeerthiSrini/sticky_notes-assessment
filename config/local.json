@@ -1,0 +1,14 @@
+{
+    "mongodbConfig": {
+        "host": "localhost",
+        "port": 27017,
+        "dbName": "sticky_notes",
+        "userName": "",
+        "password": ""
+    },
+    "projectSetup": {
+        "host": "localhost",
+        "port": 5000,
+        "apiUrl": "localhost:5000"
+    }
+}
