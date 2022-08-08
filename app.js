@@ -50,6 +50,7 @@ let notesmodel = require('./model/notesModel');
 
 let notesRouter = require('./routes/notes');
 
+// router
 app.use('/stickyNotes', notesRouter);
 
 app.use(express.static(path.join(__dirname, 'public')));
